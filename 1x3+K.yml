@@ -1,0 +1,24 @@
+# Normal keyboard orientation is when
+# buttons are on the left side and knobs are on the right.
+# However, you may want to use the keyboard in another orientation.
+# To avoid remapping button positions in your head, just set it here.
+# Possible values are:
+#   (horizontal)
+#   - 'normal': buttons on the left, knobs on the right
+#   - 'upsidedown': buttons on the right, knobs on the left
+#   (vertical)
+#   - 'clockwise': buttons on the top, knobs on the bottom
+#   - 'counterclockwise': buttons on the bottom, knobs on the top
+orientation: normal
+
+rows: 1 
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      - ["F13", "F14", "F15"]
+    knobs:
+      - ccw: "volumedown"
+        press: "mute"
+        cw: "volumeup"
